@@ -77,7 +77,7 @@ def erstelle_wissensbasis():
 
 
 # Function to apply Modus Ponens
-# Das ist die eigentliche Schlussfolgerngslogik, die dei Regeln der Wissensbasis anwendet, um die bekannten Fakten anzuwenden.
+# Das ist die eigentliche Schlussfolgerngslogik, die die Regeln der Wissensbasis anwendet, um die bekannten Fakten anzuwenden.
 # Die while Schleife sorgt dafür, dass alle möglichen Schlussfolgerungen gezogen werden, bis keine neuen Fakten mehr abgeleitet werden können.
 
 def wende_modus_ponens_an(wb, bekannte_fakten):
