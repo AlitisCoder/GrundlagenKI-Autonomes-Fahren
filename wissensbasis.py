@@ -44,25 +44,15 @@ class Implikation:
 
 # Function to create a propositional logic knowledge base
 def erstelle_wissensbasis():
-    # Erstellen atomare Formeln
-    N = AtomareFormel("N")  # Nomen
-    I = AtomareFormel("I")  # International
-    S = AtomareFormel("S")  # Sprache
-
+    # Erstellen der  atomaren Formeln
     #Aufgabe1
-
-    # Das ist die Liste der Regeln, wie ein Regelwerk wie die Verkehrssituation aussehen könnte.
+# Hier werden die atomaren Formeln definiert, die die grundlegenden Fakten oder Aussagen repräsentieren, die in der Wissensbasis verwendet werden.
     F = AtomareFormel ("F") # Fußgänger
     H = AtomareFormel ("H") # Hupe
     A = AtomareFormel ("A") # Anhalten
     R = AtomareFormel ("R") # AmpelRot
     W = AtomareFormel ("W") # Weiterfahren
 
-
-
-
-
-    # Definieren Sie Ihre logischen Regeln (Formeln)
     # Aufgabe2
     # Hier werden die Regeln definiert, die die Beziehungen zwischen den atomaren Formeln beschreiben.
 
